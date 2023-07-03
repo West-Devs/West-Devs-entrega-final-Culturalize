@@ -3,6 +3,19 @@
     margin: 0;
 }
 
+body {
+    height: 100%;
+}
+
 :root {
-    
+    --grey-color: #F5F6F7;
+    --lightgrey-color: #e6e8eb;
+    --white-color: #fff;
+    --black-color: #171717;
+    --blue-color: #007AFF;
+
+    --primary-font: 'Inter', sans-serif;
+    --font-color: #494949;
+    --font-secondary-color: #000;
+    --font-white-color: #fff;
 }
