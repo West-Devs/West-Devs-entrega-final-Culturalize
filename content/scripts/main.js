@@ -111,7 +111,7 @@ function logged() {
         a.appendChild(welcome);
         a.appendChild(userdata);
         user.appendChild(a);
-    }    
+    }
 }
 
 function loadEventos() {
@@ -476,6 +476,10 @@ function removeViewmore() {
 function viewmore(tipo) {
     const add = document.getElementById("lista");
     let h3, li;
+    const eventos = document.getElementById("events-holder");
+    const obras = document.getElementById("obras-holder");
+    const cursos = document.getElementById("cursos-holder");
+
     if (count > 0) {
         removeViewmore();
     } else {
@@ -491,6 +495,9 @@ function viewmore(tipo) {
             li.classList.add("viewmore");
             li.id = "viewmore";
             add.appendChild(li);
+            eventos.style.display = "flex";
+            obras.style.display = "none";
+            cursos.style.display = "none";
             break;
         case 2:
             h3 = document.createElement("h3");
@@ -501,6 +508,9 @@ function viewmore(tipo) {
             li.classList.add("viewmore");
             li.id = "viewmore";
             add.appendChild(li);
+            eventos.style.display = "none";
+            obras.style.display = "flex";
+            cursos.style.display = "none";
             break;
         case 3:
             h3 = document.createElement("h3");
@@ -511,10 +521,16 @@ function viewmore(tipo) {
             li.classList.add("viewmore");
             li.id = "viewmore";
             add.appendChild(li);
+            eventos.style.display = "none";
+            obras.style.display = "none";
+            cursos.style.display = "flex";
             break;
         case 4:
             count = 0;
             removeViewmore();
+            eventos.style.display = "flex";
+            obras.style.display = "flex";
+            cursos.style.display = "flex";
             break;
         default:
             console.log("Indisponível!");
@@ -522,3 +538,17 @@ function viewmore(tipo) {
     }
 }
 
+let currentButton = null;
+
+function Active(button) {
+    if (currentButton !== null) {
+        currentButton.classList.remove("active");
+    }
+
+    if (button !== currentButton) {
+        button.classList.add("active");
+        currentButton = button;
+    } else {
+        currentButton = null;
+    }
+}
