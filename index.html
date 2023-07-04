@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Culturalize</title>
     <link rel="stylesheet" href="./content/styles/home.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <script src="./content/scripts/main.js"></script>
 </head>
+
 <body>
     <header>
         <div class="menu">
@@ -51,7 +55,7 @@
                 <a href="#">
                     <span class="material-symbols-outlined" id="main_icons">search</span>
                 </a>
-                
+
             </li>
             <li id="user_status">
 
@@ -96,24 +100,21 @@
             <div class="categorias" id="categorias">
                 <h2>Confira:</h2>
                 <ul class="lista" id="lista">
-                  <li class="btn active" id="btn1" onclick="viewmore(4);  Active('btn-1');">
-                    <h3>Todos</h3>
-                  </li>
-                  <li onclick="viewmore(1); Active('btn-2')" id="btn-2" class="btn">
-                    <h3>Eventos</h3>
-                  </li>
-                  <li onclick="viewmore(2); Active('btn-3')" id="btn-3" class="btn">
-                    <h3>Obras</h3>
-                  </li>
-                  <li onclick="viewmore(3); Active('btn-4')" id="btn-4" class="btn">
-                    <h3>Cursos</h3>
-                  </li>
+                    <li onclick="viewmore(4); addActive('btn1')" id="btn1" class="btn active">
+                        <h3>Todos</h3>
+                    </li>
+                    <li onclick="viewmore(1); addActive('btn2')" id="btn2" class="btn">
+                        <h3>Eventos</h3>
+                    </li>
+                    <li onclick="viewmore(2); addActive('btn3')" id="btn3" class="btn">
+                        <h3>Obras</h3>
+                    </li>
+                    <li onclick="viewmore(3); addActive('btn4')" id="btn4" class="btn">
+                        <h3>Cursos</h3>
+                    </li>
                 </ul>
-            <div>
-            <div class="expo" id="expo">
-                
-            </div>
-        </div>
+            </div>            
+            <div class="expo" id="expo"></div>
     </section>
     <footer>
         <div class="linha"></div>
@@ -154,4 +155,5 @@
         <div class="linha"></div>
     </footer>
 </body>
+
 </html>

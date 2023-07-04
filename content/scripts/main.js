@@ -111,7 +111,7 @@ function logged() {
         a.appendChild(welcome);
         a.appendChild(userdata);
         user.appendChild(a);
-    }    
+    }
 }
 
 function loadEventos() {
@@ -465,19 +465,43 @@ function loadCursos() {
     expo.appendChild(eventosHolder);
 }
 
-
 document.addEventListener('DOMContentLoaded', loadContent);
 
-function removeViewmore() {
-    const elemento = document.getElementById("viewmore");
-    elemento.remove();
+function addActive(btnid) {
+    var btns = document.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].classList.remove("active");
+    }
+    var btn = document.getElementById(btnid);
+    btn.classList.add("active");
 }
+
+function goToCatalog(tpCategoria) {
+    let baseURL = "https://west-devs.github.io/West-Devs-entrega-final-Culturalize";
+    let path = "/content/views/catalog/";
+
+    switch (tpCategoria) {
+        case "obras":
+            window.location.href = baseURL + path + "obras.html";
+            break;
+        case "eventos":
+            window.location.href = baseURL + path + "events.html";
+            break;
+        case "cursos":
+            window.location.href = baseURL + path + "courses.html";
+            break;
+    }
+};
 
 function viewmore(tipo) {
     const add = document.getElementById("lista");
     let h3, li;
+    const eventos = document.getElementById("events-holder");
+    const obras = document.getElementById("obras-holder");
+    const cursos = document.getElementById("cursos-holder");
+    const elemento = document.getElementById("viewmore");
     if (count > 0) {
-        removeViewmore();
+        elemento.remove();
     } else {
         count++;
     }
@@ -491,6 +515,12 @@ function viewmore(tipo) {
             li.classList.add("viewmore");
             li.id = "viewmore";
             add.appendChild(li);
+            eventos.style.display = "flex";
+            obras.style.display = "none";
+            cursos.style.display = "none";
+            li.addEventListener("click", function () {
+                goToCatalog("eventos")
+            });
             break;
         case 2:
             h3 = document.createElement("h3");
@@ -501,6 +531,12 @@ function viewmore(tipo) {
             li.classList.add("viewmore");
             li.id = "viewmore";
             add.appendChild(li);
+            eventos.style.display = "none";
+            obras.style.display = "flex";
+            cursos.style.display = "none";
+            li.addEventListener("click", function () {
+                goToCatalog("obras")
+            });
             break;
         case 3:
             h3 = document.createElement("h3");
@@ -511,14 +547,22 @@ function viewmore(tipo) {
             li.classList.add("viewmore");
             li.id = "viewmore";
             add.appendChild(li);
+            eventos.style.display = "none";
+            obras.style.display = "none";
+            cursos.style.display = "flex";
+            li.addEventListener("click", function () {
+                goToCatalog("cursos")
+            });
             break;
         case 4:
             count = 0;
-            removeViewmore();
+            eventos.style.display = "flex";
+            obras.style.display = "flex";
+            cursos.style.display = "flex";
+            elemento.remove();
             break;
         default:
             console.log("Indisponível!");
             break;
     }
 }
-

@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.artist-h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+#artist-article-button button {
+    background-color: white;
+    color: black;
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#artist-article-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.change-color {
+    background-color: black !important;
+    color: white !important;
+}
+
+#section-all-artist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.article-artist {
+    margin: 20px;
+    background-color: #F5F6F7;
+}
+
+.artist-imgs {
+    width: 330px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.container-artist-description {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-artist-description h2 {
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.container-artist-description p {
+    font-size: 13px;
+    font-weight: 250;
+}
+
+/* PÁGINA PERFIL ARTISTA*/
+
+.section-artist-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-artist-details {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist-text-profile p {
+    width: 300px;
+    display: flex;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.tipo-artista {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details-artist-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 5px solid #2FEA00;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.galery-artist-img {
+    width: 330px;
+    height: 300px;
+}
+
+.galery-p {
+    font-size: 30px;
+}
+
+.container-spans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-botao {
+    display: flex;
+}
+
+.article-artist-gallery {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-botao button {
+    background-color: #007AEE;
+    color: white;
+    font-size: 15px;
+    width: 175px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container-botao span {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.article-artist-details h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-spans p {
+    font-size: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.article-artist-details {
+    font-size: 13px;
+}
+
+
+
+
+
+/* PÁGINA DETALHES EVENTOS*/
+
+
+/*
+
+.body-artist-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-artist-details {
+    display: flex;
+    justify-content: center;
+}
+
+.details-artist-img {
+    width: 650px;
+    height: 550px;
+}
+
+.article-artist-details {
+    margin-left: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.article-artist-details h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.article-artist-details p {
+    font-size: 15px;
+    font-weight: 250;
+
+}
+
+.text-artist-details {
+    text-align: justify;
+
+}
+
+.container-artist-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-button-artist-details {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+.article-artist-details button {
+    background-color: #007AEE;
+    color: white;
+    font-size: 18px;
+    width: 175px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+
+*/
