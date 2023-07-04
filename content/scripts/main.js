@@ -476,6 +476,23 @@ function addActive(btnid) {
     btn.classList.add("active");
 }
 
+function goToCatalog(tpCategoria) {
+    let baseURL = "file:///C:/Users/Adm/Desktop/West-Devs-entrega-final-Culturalize";
+    let path = "/content/views/catalog/";
+
+    switch (tpCategoria) {
+        case "obras":
+            window.location.href = baseURL + path + "obras.html";
+            break;
+        case "eventos":
+            window.location.href = baseURL + path + "events.html";
+            break;
+        case "cursos":
+            window.location.href = baseURL + path + "courses.html";
+            break;
+    }
+};
+
 function viewmore(tipo) {
     const add = document.getElementById("lista");
     let h3, li;
@@ -501,6 +518,9 @@ function viewmore(tipo) {
             eventos.style.display = "flex";
             obras.style.display = "none";
             cursos.style.display = "none";
+            li.addEventListener("click", function () {
+                goToCatalog("eventos")
+            });
             break;
         case 2:
             h3 = document.createElement("h3");
@@ -514,6 +534,9 @@ function viewmore(tipo) {
             eventos.style.display = "none";
             obras.style.display = "flex";
             cursos.style.display = "none";
+            li.addEventListener("click", function () {
+                goToCatalog("obras")
+            });
             break;
         case 3:
             h3 = document.createElement("h3");
@@ -527,6 +550,9 @@ function viewmore(tipo) {
             eventos.style.display = "none";
             obras.style.display = "none";
             cursos.style.display = "flex";
+            li.addEventListener("click", function () {
+                goToCatalog("cursos")
+            });
             break;
         case 4:
             count = 0;
