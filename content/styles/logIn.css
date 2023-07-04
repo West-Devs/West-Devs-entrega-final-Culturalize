@@ -1,0 +1,52 @@
+@import url(./shared.css);
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#imagem {
+    height: 426px;
+    width: 320px;
+    margin-left: 50px;
+}
+
+#logo {
+    padding: 14px;
+    position: absolute;
+    left: 62px;
+    top: 10px;
+}
+
+#seta {
+    padding: 14px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 35px;
+    width: 44px;
+}
+#culturalize {
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+#direita { 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
