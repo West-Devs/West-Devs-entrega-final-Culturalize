@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.obras-h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+#obras-article-button button {
+    background-color: white;
+    color: black;
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#obras-article-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.change-color {
+    background-color: black !important;
+    color: white !important;
+}
+
+#section-all-obras {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.article-obras {
+    margin: 20px;
+    background-color: #F5F6F7;
+}
+
+.obras-imgs {
+    width: 330px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.container-obras-description {
+    height: 100px;
+}
+
+.container-obras-description h2 {
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.container-obras-description p {
+    font-size: 13px;
+    font-weight: 250;
+}
+
+
+
+/* PÁGINA DETALHES OBRAS*/
+
+.body-obras-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-obras-details {
+    display: flex;
+    justify-content: center;
+}
+
+.details-obras-img {
+    width: 650px;
+    height: 550px;
+}
+
+.article-obras-details {
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;*/
+    margin-left: 30px;
+}
+
+.article-obras-details h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.article-obras-details p {
+    font-size: 15px;
+    font-weight: 250;
+
+}
+
+.text-obras-details {
+    text-align: justify;
+
+}
+
+.container-obras-details{
+    display: flex;
+}
+
+.container-button-obras-details {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+.article-obras-details button {
+    background-color: #007AEE;
+    color: white;
+    font-size: 18px;
+    width: 175px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}

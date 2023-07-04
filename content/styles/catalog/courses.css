@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.courses-imgs {
+    width: 330px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#courses-article-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.change-color {
+    background-color: black !important;
+    color: white !important;
+}
+
+#section-all-courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
