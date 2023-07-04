@@ -465,12 +465,15 @@ function loadCursos() {
     expo.appendChild(eventosHolder);
 }
 
-
 document.addEventListener('DOMContentLoaded', loadContent);
 
-function removeViewmore() {
-    const elemento = document.getElementById("viewmore");
-    elemento.remove();
+function addActive(btnid) {
+    var btns = document.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].classList.remove("active");
+    }
+    var btn = document.getElementById(btnid);
+    btn.classList.add("active");
 }
 
 function viewmore(tipo) {
@@ -479,9 +482,9 @@ function viewmore(tipo) {
     const eventos = document.getElementById("events-holder");
     const obras = document.getElementById("obras-holder");
     const cursos = document.getElementById("cursos-holder");
-
+    const elemento = document.getElementById("viewmore");
     if (count > 0) {
-        removeViewmore();
+        elemento.remove();
     } else {
         count++;
     }
@@ -527,28 +530,13 @@ function viewmore(tipo) {
             break;
         case 4:
             count = 0;
-            removeViewmore();
             eventos.style.display = "flex";
             obras.style.display = "flex";
             cursos.style.display = "flex";
+            elemento.remove();
             break;
         default:
             console.log("Indisponível!");
             break;
-    }
-}
-
-let currentButton = null;
-
-function Active(button) {
-    if (currentButton !== null) {
-        currentButton.classList.remove("active");
-    }
-
-    if (button !== currentButton) {
-        button.classList.add("active");
-        currentButton = button;
-    } else {
-        currentButton = null;
     }
 }
