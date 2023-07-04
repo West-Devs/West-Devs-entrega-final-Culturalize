@@ -1,12 +1,5 @@
 @import url(./shared.css);
 
-#container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 100vh;
-}
-
 #imagem {
     height: 426px;
     width: 320px;
@@ -28,6 +21,7 @@
     height: 35px;
     width: 44px;
 }
+
 #culturalize {
     flex-direction: row;
     justify-content: space-around;
@@ -35,18 +29,115 @@
 
 }
 
-#direita { 
+.direita {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-#card {
+.card {
     width: 100%;
-    height: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
 
+header {
+    display: flex;
+    color: #494949;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#size {
+    font-size: 38px;
+}
+
+.direita h1 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.direita h2 {
+    color: #494949;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+.direita h3 {
+    color: #A0A0A0;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.border {
+    width: 400px;
+    height: 25px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #494949;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.btns p {
+    font-size: 15px;
+}
+
+#login {
+    border: none;
+    border-radius: 10px;
+    background: #007AFF;
+    height: 30px;
+    margin: 10px;
+}
+
+#login h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#signin {
+    border: none;
+    border-radius: 10px;
+    background: #000000;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#signin h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
