@@ -477,7 +477,7 @@ function addActive(btnid) {
 }
 
 function goToCatalog(tpCategoria) {
-    let baseURL = "file:///C:/Users/Adm/Desktop/West-Devs-entrega-final-Culturalize";
+    let baseURL = "https://west-devs.github.io/West-Devs-entrega-final-Culturalize";
     let path = "/content/views/catalog/";
 
     switch (tpCategoria) {
