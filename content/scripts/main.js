@@ -93,16 +93,25 @@ function logged() {
     const user = document.getElementById("user_status");
     if (signedIn === 'true') {
         let a = document.createElement('a');
+
         let welcome = document.createElement('h3');
         welcome.textContent = "Bem Vindo!";
         let userdata = document.createElement('h3');
         userdata.textContent = "User";
         userdata.style.fontWeight = "bold";
+
         a.appendChild(welcome);
         a.appendChild(userdata);
         user.appendChild(a);
     } else {
         let a = document.createElement('a');
+        a.style.cursor = "pointer";
+        a.addEventListener("click", function () {
+            let baseURL = "https://west-devs.github.io/West-Devs-entrega-final-Culturalize";
+            let path = "/content/views/";
+
+            window.location.href = baseURL + path + "login.html";
+        });
         let welcome = document.createElement('h3');
         welcome.textContent = "Bem Vindo!";
         let userdata = document.createElement('h3');
