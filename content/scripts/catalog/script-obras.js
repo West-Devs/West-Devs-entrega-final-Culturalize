@@ -90,7 +90,7 @@ let OBRAS = [
 let DETALHES_OBRAS = [
     {
         id: 1,
-        url_img: "./content/imgs/03-Obras/01-Obras-Desenho/obra-desenho1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/01-Obras-Desenho/obra-desenho1.jpg",
         nome: "Além das Cores",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Paulo",
@@ -101,7 +101,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 2,
-        url_img: "./content/imgs/03-Obras/01-Obras-Desenho/obra-desenho2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/01-Obras-Desenho/obra-desenho2.jpg",
         nome: "Fragmentos da Alma",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Pedro",
@@ -112,7 +112,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 3,
-        url_img: "./content/imgs/03-Obras/01-Obras-Desenho/obra-desenho3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/01-Obras-Desenho/obra-desenho3.jpg",
         nome: "Vozes do Silêncio",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Patricia",
@@ -123,7 +123,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 4,
-        url_img: "./content/imgs/03-Obras/02-Obras-Pintura/obra-pintura1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/02-Obras-Pintura/obra-pintura1.jpg",
         nome: "Sinfonia em Tons Abstratos",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Luis",
@@ -134,7 +134,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 5,
-        url_img: "./content/imgs/03-Obras/02-Obras-Pintura/obra-pintura2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/02-Obras-Pintura/obra-pintura2.jpg",
         nome: "Entre o Céu e a Terra",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Rodrigo",
@@ -145,7 +145,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 6,
-        url_img: "./content/imgs/03-Obras/02-Obras-Pintura/obra-pintura3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/02-Obras-Pintura/obra-pintura3.jpg",
         nome: "A Dança dos Elementos",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Daniel",
@@ -156,7 +156,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 7,
-        url_img: "./content/imgs/03-Obras/03-Obras-Escultura/obra-escultura1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/03-Obras-Escultura/obra-escultura1.jpg",
         nome: "Retratos da Vida",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Vilma",
@@ -167,7 +167,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 8,
-        url_img: "./content/imgs/03-Obras/03-Obras-Escultura/obra-escultura2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/03-Obras-Escultura/obra-escultura2.jpg",
         nome: "Caminhos Entrelaçados",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Leonardo",
@@ -178,7 +178,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 9,
-        url_img: "./content/imgs/03-Obras/03-Obras-Escultura/obra-escultura3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/03-Obras-Escultura/obra-escultura3.jpg",
         nome: "A Essência da Natureza",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Ana",
@@ -189,7 +189,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 10,
-        url_img: "../content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia1.jpg",
         nome: "Pintando Memórias",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Luisa",
@@ -200,7 +200,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 11,
-        url_img: "./content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia2.jpg",
         nome: "Reflexos da Alma",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Carolina",
@@ -211,7 +211,7 @@ let DETALHES_OBRAS = [
     },
     {
         id: 12,
-        url_img: "./content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia3.jpg",
         nome: "A Jornada da Transformação",
         descricao: "A obra é uma composição visual que busca explorar a interação entre elementos opostos. Através do uso de cores vibrantes e contrastantes, linhas curvas e formas geométricas, a obra cria uma dinâmica visual cativante. As diferentes texturas e camadas adicionam profundidade e interesse à obra, convidando o observador a explorar cada detalhe. A obra transmite uma sensação de equilíbrio e harmonia, apesar da presença de contrastes marcantes. É uma representação visual da coexistência e complementaridade entre forças distintas, convidando o espectador a refletir sobre a diversidade e a união presentes no mundo ao nosso redor.",
         artista: "Claudio",
