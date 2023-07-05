@@ -499,6 +499,9 @@ function goToCatalog(tpCategoria) {
         case "cursos":
             window.location.href = baseURL + path + "courses.html";
             break;
+        case "artistas":
+            window.location.href = baseURL + path + "artist.html";
+            break;
     }
 };
 
@@ -564,6 +567,22 @@ function viewmore(tipo) {
             });
             break;
         case 4:
+            h3 = document.createElement("h3");
+            h3.textContent = "Confira todos os Artistas";
+            li = document.createElement("li");
+            li.appendChild(h3);
+            li.classList.add("btn");
+            li.classList.add("viewmore");
+            li.id = "viewmore";
+            add.appendChild(li);
+            eventos.style.display = "flex";
+            obras.style.display = "flex";
+            cursos.style.display = "flex";
+            li.addEventListener("click", function () {
+                goToCatalog("artistas")
+            });
+            break;
+        case 5:
             count = 0;
             eventos.style.display = "flex";
             obras.style.display = "flex";
