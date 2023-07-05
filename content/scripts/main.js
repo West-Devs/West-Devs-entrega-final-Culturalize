@@ -110,7 +110,7 @@ function logged() {
             let baseURL = "https://west-devs.github.io/West-Devs-entrega-final-Culturalize";
             let path = "/content/views/";
 
-            window.location.href = baseURL + path + "login.html";
+            window.location.href = baseURL + path + "logIn.html";
         });
         let welcome = document.createElement('h3');
         welcome.textContent = "Bem Vindo!";
