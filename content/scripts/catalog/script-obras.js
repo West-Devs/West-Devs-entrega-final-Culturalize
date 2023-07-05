@@ -1,84 +1,86 @@
+let baseURL = "https://west-devs.github.io/West-Devs-entrega-final-Culturalize";
+
 let OBRAS = [
     {
         id: 1,
-        url_img: "./content/imgs/03-Obras/01-Obras-Desenho/obra-desenho1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/01-Obras-Desenho/obra-desenho1.jpg",
         nome: "#Além das Cores",
         artista: "Paulo",
         modalidade: "desenho"
     },
     {
         id: 2,
-        url_img: "./content/imgs/03-Obras/01-Obras-Desenho/obra-desenho2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/01-Obras-Desenho/obra-desenho2.jpg",
         nome: "#Fragmentos da Alma",
         artista: "Pedro",
         modalidade: "desenho"
     },
     {
         id: 3,
-        url_img: "./content/imgs/03-Obras/01-Obras-Desenho/obra-desenho3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/01-Obras-Desenho/obra-desenho3.jpg",
         nome: "#Vozes do Silêncio",
         artista: "Patricia",
         modalidade: "desenho"
     },
     {
         id: 4,
-        url_img: "./content/imgs/03-Obras/02-Obras-Pintura/obra-pintura1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/02-Obras-Pintura/obra-pintura1.jpg",
         nome: "#Sinfonia em Tons Abstratos",
         artista: "Luis",
         modalidade: "pintura"
     },
     {
         id: 5,
-        url_img: "./content/imgs/03-Obras/02-Obras-Pintura/obra-pintura2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/02-Obras-Pintura/obra-pintura2.jpg",
         nome: "#Entre o Céu e a Terra",
         artista: "Rodrigo",
         modalidade: "pintura"
     },
     {
         id: 6,
-        url_img: "./content/imgs/03-Obras/02-Obras-Pintura/obra-pintura3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/02-Obras-Pintura/obra-pintura3.jpg",
         nome: "#A Dança dos Elementos",
         artista: "Daniel",
         modalidade: "pintura"
     },
     {
         id: 7,
-        url_img: "./content/imgs/03-Obras/03-Obras-Escultura/obra-escultura1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/03-Obras-Escultura/obra-escultura1.jpg",
         nome: "#Retratos da Vida",
         artista: "Vilma",
         modalidade: "escultura"
     },
     {
         id: 8,
-        url_img: "./content/imgs/03-Obras/03-Obras-Escultura/obra-escultura2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/03-Obras-Escultura/obra-escultura2.jpg",
         nome: "#Caminhos Entrelaçados",
         artista: "Leonardo",
         modalidade: "escultura"
     },
     {
         id: 9,
-        url_img: "./content/imgs/03-Obras/03-Obras-Escultura/obra-escultura3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/03-Obras-Escultura/obra-escultura3.jpg",
         nome: "#A Essência da Natureza",
         artista: "Ana",
         modalidade: "escultura"
     },
     {
         id: 10,
-        url_img: "./content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia1.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia1.jpg",
         nome: "#Pintando Memórias",
         artista: "Luisa",
         modalidade: "fotografia"
     },
     {
         id: 11,
-        url_img: "./content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia2.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia2.jpg",
         nome: "#Reflexos da Alma",
         artista: "Carolina",
         modalidade: "fotografia"
     },
     {
         id: 12,
-        url_img: "./content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia3.jpg",
+        url_img: baseURL + "/content/imgs/03-Obras/04-Obras-Fotografia/obra-fotografia3.jpg",
         nome: "#A Jornada da Transformação",
         artista: "Claudio",
         modalidade: "fotografia"
